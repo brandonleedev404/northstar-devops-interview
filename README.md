@@ -20,12 +20,13 @@ curl -i http://127.0.0.1:8080/readyz
 
 ## Stages added each quarter
 
-**Latest addition: Stage 2 (2024 Q2).** Each quarterly commit introduces the next stage and its supporting files. Earlier stages remain available, so this checkpoint contains Stages 1–2.
+**Latest addition: Stage 3 (2024 Q3).** Each quarterly commit introduces the next stage and its supporting files. Earlier stages remain available, so this checkpoint contains Stages 1–3.
 
 | Stage | Added | Focus |
 | --- | --- | --- |
 | [Stage 1](challenges/2024-Q1.md) | 2024 Q1 | Health and readiness |
 | [Stage 2](challenges/2024-Q2.md) | 2024 Q2 | Container hardening |
+| [Stage 3](challenges/2024-Q3.md) | 2024 Q3 | CI quality gate |
 
 Start a solution branch from this checkpoint and work through the stages without switching tags between them:
 
