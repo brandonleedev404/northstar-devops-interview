@@ -1,0 +1,1 @@
+Three schedulable nodes: worker-a, worker-b, worker-c. Each can host at least two replicas. All three replicas currently run on worker-a. A single node will be drained using the eviction API; no forced deletion is permitted.

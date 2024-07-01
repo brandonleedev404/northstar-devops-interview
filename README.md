@@ -20,7 +20,7 @@ curl -i http://127.0.0.1:8080/readyz
 
 ## Stages added each quarter
 
-**Latest addition: Stage 4 (2024 Q4).** Each quarterly commit introduces the next stage and its supporting files. Earlier stages remain available, so this checkpoint contains Stages 1–4.
+**Latest addition: Stage 5 (2025 Q1).** Each quarterly commit introduces the next stage and its supporting files. Earlier stages remain available, so this checkpoint contains Stages 1–5.
 
 | Stage | Added | Focus |
 | --- | --- | --- |
@@ -28,6 +28,7 @@ curl -i http://127.0.0.1:8080/readyz
 | [Stage 2](challenges/2024-Q2.md) | 2024 Q2 | Container hardening |
 | [Stage 3](challenges/2024-Q3.md) | 2024 Q3 | CI quality gate |
 | [Stage 4](challenges/2024-Q4.md) | 2024 Q4 | Kubernetes rollout safety |
+| [Stage 5](challenges/2025-Q1.md) | 2025 Q1 | Availability during maintenance |
 
 Start a solution branch from this checkpoint and work through the stages without switching tags between them:
 
