@@ -1,0 +1,8 @@
+groups:
+  - name: parcel-api
+    rules:
+      - alert: ParcelErrors
+        expr: http_requests_total{job="parcel-api",status="500"} > 0
+        for: 0m
+        labels:
+          severity: page
