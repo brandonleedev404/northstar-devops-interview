@@ -1,0 +1,4 @@
+replicas,cpu_request_millicores,observed_cpu_millicores_per_pod,p95_ms
+3,250,100,90
+3,250,240,520
+5,250,175,140

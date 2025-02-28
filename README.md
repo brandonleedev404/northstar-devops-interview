@@ -20,7 +20,7 @@ curl -i http://127.0.0.1:8080/readyz
 
 ## Stages added each quarter
 
-**Latest addition: Stage 9 (2026 Q1).** Each quarterly commit introduces the next stage and its supporting files. Earlier stages remain available, so this checkpoint contains Stages 1–9.
+**Latest addition: Stage 10 (2026 Q2).** Each quarterly commit introduces the next stage and its supporting files. Earlier stages remain available, so this checkpoint contains Stages 1–10.
 
 | Stage | Added | Focus |
 | --- | --- | --- |
@@ -33,6 +33,7 @@ curl -i http://127.0.0.1:8080/readyz
 | [Stage 7](challenges/2025-Q3.md) | 2025 Q3 | Safe environment configuration |
 | [Stage 8](challenges/2025-Q4.md) | 2025 Q4 | Backup integrity and restore |
 | [Stage 9](challenges/2026-Q1.md) | 2026 Q1 | Immutable release deployment |
+| [Stage 10](challenges/2026-Q2.md) | 2026 Q2 | Capacity planning and autoscaling |
 
 Start a solution branch from this checkpoint and work through the stages without switching tags between them:
 
