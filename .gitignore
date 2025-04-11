@@ -1,5 +1,38 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Local configuration and credentials. Keep the example fixture
+# release/example.env tracked; real .env files must stay local.
 .env
+.env.*
+!.env.example
+!.env.sample
+*.local
+*.secret
+*.secrets
+*.credentials
+credentials/
+secrets/
+
+# Codex and other editor/agent state must never enter the exercise.
+.codex/
+.agents/
+.idea/
+.vscode/
+
+# Private keys and certificates.
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated output and local tooling files.
 artifacts/
+coverage/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store

@@ -1,8 +1,8 @@
-# Stage 3: Stop shipping failed builds
+# Green Light
 
-**Added:** 2024 Q3 · **Checkpoint:** `stage-3`
+Stop shipping failed builds
 
-**Timebox:** 75–90 minutes. **Company:** Northstar Logistics (fictional).
+**Timebox:** 75–90 minutes. **Scenario company:** Southstar (fictional).
 
 ## Scenario
 
@@ -10,8 +10,7 @@ A test failure appeared green in the build and a broken image was published.
 
 ## Scope
 
-Work in `.github/workflows/ci.yml`. Build on your work from Stages 1–2; retain earlier fixes and regression tests. Add validation for this stage and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
-
+Work in `.github/workflows/ci.yml`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
 
 ## Acceptance criteria
 

@@ -1,8 +1,8 @@
-# Stage 8: Prove backups can be restored
+# Safety Net
 
-**Added:** 2025 Q4 · **Checkpoint:** `stage-8`
+Prove backups can be restored
 
-**Timebox:** 75–90 minutes. **Company:** Northstar Logistics (fictional).
+**Timebox:** 75–90 minutes. **Scenario company:** Southstar (fictional).
 
 ## Scenario
 
@@ -10,8 +10,7 @@ A successful backup job produced an empty file after a source path typo.
 
 ## Scope
 
-Work in `scripts/backup.sh, scripts/restore.sh`. Build on your work from Stages 1–7; retain earlier fixes and regression tests. Add validation for this stage and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
-
+Work in `scripts/backup.sh, scripts/restore.sh`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
 
 ## Acceptance criteria
 

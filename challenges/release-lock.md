@@ -1,8 +1,8 @@
-# Stage 9: Deploy exactly the approved release
+# Release Lock
 
-**Added:** 2026 Q1 · **Checkpoint:** `stage-9`
+Deploy exactly the approved release
 
-**Timebox:** 75–90 minutes. **Company:** Northstar Logistics (fictional).
+**Timebox:** 75–90 minutes. **Scenario company:** Southstar (fictional).
 
 ## Scenario
 
@@ -10,8 +10,7 @@ Rollback pulled a different image because the latest tag had moved.
 
 ## Scope
 
-Work in `scripts/deploy.sh, release/example.env`. Build on your work from Stages 1–8; retain earlier fixes and regression tests. Add validation for this stage and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
-
+Work in `scripts/deploy.sh, release/example.env`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
 
 ## Acceptance criteria
 

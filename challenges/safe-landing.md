@@ -1,8 +1,8 @@
-# Stage 4: Make rollouts safe
+# Safe Landing
 
-**Added:** 2024 Q4 · **Checkpoint:** `stage-4`
+Make rollouts safe
 
-**Timebox:** 75–90 minutes. **Company:** Northstar Logistics (fictional).
+**Timebox:** 75–90 minutes. **Scenario company:** Southstar (fictional).
 
 ## Scenario
 
@@ -10,8 +10,7 @@ A deployment replaced working pods before replacements could serve traffic.
 
 ## Scope
 
-Work in `deploy/k8s.yaml`. Build on your work from Stages 1–3; retain earlier fixes and regression tests. Add validation for this stage and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
-
+Work in `deploy/k8s.yaml`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
 
 ## Acceptance criteria
 

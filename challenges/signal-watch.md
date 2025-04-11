@@ -1,8 +1,8 @@
-# Stage 6: Alert on customer impact
+# Signal Watch
 
-**Added:** 2025 Q2 · **Checkpoint:** `stage-6`
+Alert on customer impact
 
-**Timebox:** 75–90 minutes. **Company:** Northstar Logistics (fictional).
+**Timebox:** 75–90 minutes. **Scenario company:** Southstar (fictional).
 
 ## Scenario
 
@@ -10,8 +10,7 @@ The current alert pages on any 500 while sustained API unavailability goes unnot
 
 ## Scope
 
-Work in `observability/alerts.yml, observability/metrics.md`. Build on your work from Stages 1–5; retain earlier fixes and regression tests. Add validation for this stage and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
-
+Work in `observability/alerts.yml, observability/metrics.md`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
 
 ## Acceptance criteria
 

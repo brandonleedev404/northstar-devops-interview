@@ -1,8 +1,8 @@
-# Stage 2: Harden the container
+# Sealed Container
 
-**Added:** 2024 Q2 · **Checkpoint:** `stage-2`
+Harden the container
 
-**Timebox:** 75–90 minutes. **Company:** Northstar Logistics (fictional).
+**Timebox:** 75–90 minutes. **Scenario company:** Southstar (fictional).
 
 ## Scenario
 
@@ -10,8 +10,7 @@ The security review found a root process and unnecessary files in the image.
 
 ## Scope
 
-Work in `Dockerfile, .dockerignore`. Build on your work from Stages 1–1; retain earlier fixes and regression tests. Add validation for this stage and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
-
+Work in `Dockerfile, .dockerignore`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
 
 ## Acceptance criteria
 

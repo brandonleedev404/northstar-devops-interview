@@ -1,0 +1,15 @@
+# Synthetic incident evidence, 2026-08-19 UTC.
+# Live resources drifted from checked-in manifests: readiness now uses /readyz,
+# PDB selector is app=parcel-api with minAvailable=3, HPA is paused.
+# Release r17 adds a real data dependency check to /readyz (not in this starter).
+09:00:00 deployment/parcel-api desired=3 updated=0 ready=3 image=r16
+09:01:00 release r17 initiated; new pod env DATA_FILE=/mnt/shipments.json
+09:01:02 r17 pod: volume mounts=[]
+09:01:10 r17 GET /healthz 200
+09:01:10 r17 GET /readyz 503 body={"error":"data unavailable"}
+09:01:11 r17 GET /shipments/PKG-1001 503
+09:02:00 pdb/parcel-api currentHealthy=2 desiredHealthy=3 disruptionsAllowed=0
+09:02:05 drain worker-a: eviction denied: would violate pod disruption budget
+09:03:00 deployment/parcel-api desired=3 updated=1 ready=2 unavailable=1
+09:11:00 deployment/parcel-api ProgressDeadlineExceeded
+09:11:05 gateway shipment 5xx ratio=0.04 over 5m; traffic=40 requests/sec
