@@ -10,7 +10,7 @@ A successful backup job produced an empty file after a source path typo.
 
 ## Scope
 
-Work in `scripts/backup.sh, scripts/restore.sh`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
+Work in `scripts/backup.sh, scripts/restore.sh`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The supplied files contain starter material, not completed solutions.
 
 ## Acceptance criteria
 

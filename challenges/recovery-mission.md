@@ -10,7 +10,7 @@ A release stalled during planned node maintenance. Operations needs a safe recov
 
 ## Scope
 
-Work in `fixtures/incident.log, deploy/, RUNBOOK.md`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
+Work in `fixtures/incident.log, deploy/, RUNBOOK.md`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The supplied files contain starter material, not completed solutions.
 
 ## Acceptance criteria
 

@@ -10,7 +10,7 @@ The security review found a root process and unnecessary files in the image.
 
 ## Scope
 
-Work in `Dockerfile, .dockerignore`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The checkpoint contains starter material, not completed solutions.
+Work in `Dockerfile, .dockerignore`. Complete this challenge if it is the one specified in your invitation email. Other challenges are not prerequisites; address existing defects only when needed for the acceptance criteria below. Add validation and record results in `SOLUTION.md`. The supplied files contain starter material, not completed solutions.
 
 ## Acceptance criteria
 
