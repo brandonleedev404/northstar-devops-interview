@@ -1,9 +1,6 @@
 __pycache__/
 *.pyc
 .venv/
-
-# Local configuration and credentials. Keep the example fixture
-# release/example.env tracked; real .env files must stay local.
 .env
 .env.*
 !.env.example
@@ -14,20 +11,14 @@ __pycache__/
 *.credentials
 credentials/
 secrets/
-
-# Codex and other editor/agent state must never enter the exercise.
 .codex/
 .agents/
 .idea/
 .vscode/
-
-# Private keys and certificates.
 *.pem
 *.key
 *.p12
 *.pfx
-
-# Generated output and local tooling files.
 artifacts/
 coverage/
 .coverage
